@@ -1,0 +1,11 @@
+.promo__wrapper {
+  @include container;
+}
+
+.promo__link {
+  color: $color-add;
+}
+
+.promo__icon {
+  transform: rotate(-90deg);
+}
