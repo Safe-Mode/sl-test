@@ -88,7 +88,6 @@ gulp.task("serve", function() {
   gulp.watch("scss/**/*.{scss,sass}", ["style"]);
   gulp.watch("js/script.js", ["script"]);
   gulp.watch("*.html", ["html"]);
-  gulp.watch("img/*.svg", ["images", "sprite", "html"]);
 });
 
 gulp.task("copy", function() {

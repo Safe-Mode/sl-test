@@ -21,6 +21,7 @@
 }
 
 .user-area__city-choise {
+  @include link-reset;
   vertical-align: middle;
 }
 

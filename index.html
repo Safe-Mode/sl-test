@@ -16,10 +16,10 @@
   <header class="page-header">
     <div class="page-header__top">
       <div class="page-header__wrapper">
-        <p class="page-header__logo logo">
+        <a class="page-header__logo logo">
           <span class="logo__string logo__string--big">Электроника</span>
           <span class="logo__string logo__string--small">магазин</span>
-        </p>
+        </a>
         <div class="page-header__user-area user-area">
           <p class="user-area__city">
             <span class="user-area__city-name">Ростов-на-Дону</span>
@@ -60,35 +60,38 @@
     </div>
 
     <div class="page-header__bottom">
-      <nav class="main-nav">
-        <ul class="main-nav__list">
-          <li class="main-nav__item">
-            <a href="#" class="main-nav__link">Главная</a>
-          </li>
-          <li class="main-nav__item">
-            <a href="#" class="main-nav__link">Каталог</a>
-          </li>
-          <li class="main-nav__item">
-            <a href="#" class="main-nav__link">Новинки</a>
-          </li>
-          <li class="main-nav__item">
-            <a href="#" class="main-nav__link">Способы оплаты</a>
-          </li>
-          <li class="main-nav__item">
-            <a href="#" class="main-nav__link">Виды доставки</a>
-          </li>
-          <li class="main-nav__item">
-            <a href="#" class="main-nav__link">О компании</a>
-          </li>
-          <li class="main-nav__item">
-            <a href="#" class="main-nav__link">Контакты</a>
-          </li>
-        </ul>
-      </nav>
-      <form class="page-header__search">
-        <input type="search">
-        <button class="visually-hidden" type="submit">Поиск</button>
-      </form>
+      <div class="page-header__wrapper">
+        <nav class="main-nav">
+          <ul class="main-nav__list">
+            <li class="main-nav__item">
+              <a href="#" class="main-nav__link">Главная</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#" class="main-nav__link">Каталог</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#" class="main-nav__link">Новинки</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#" class="main-nav__link">Способы оплаты</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#" class="main-nav__link">Виды доставки</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#" class="main-nav__link">О компании</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#" class="main-nav__link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <form class="page-header__search form form--search">
+          <label class="visually-hidden" for="search-field">Поиск</label>
+          <input class="form__input form__input--search" type="search" id="search-field">
+          <span class="search-handle"></span>
+        </form>
+      </div>
     </div>
   </header>
 
