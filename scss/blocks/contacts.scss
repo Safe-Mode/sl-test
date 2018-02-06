@@ -1,5 +1,30 @@
 .contacts {
+  position: relative;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-left: 30px;
+  max-width: 300px;
+
   font-weight: 700;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    left: 0;
+
+    width: 1px;
+
+    background-color: $color-main;
+  }
+}
+
+.contacts__phones {
+  margin: 0;
+  margin-right: 10px;
 }
 
 .contacts__phone {
@@ -20,6 +45,9 @@
 }
 
 .contacts__location {
+  margin: 0;
+  width: 100%;
+
   font-size: 15px;
   line-height: 1;
   letter-spacing: 0.025em;

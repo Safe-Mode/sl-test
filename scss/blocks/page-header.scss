@@ -1,9 +1,22 @@
+.page-header__wrapper {
+  @include container;
+
+  display: flex;
+  justify-content: space-between;
+}
+
 .page-header__top {
+  align-items: center;
   padding: 20px 0;
+
   color: $color-main;
 }
 
 .page-header__bottom {
   color: #ffffff;
   background-color: $color-main;
+}
+
+.page-header__user-area {
+  margin-left: auto;
 }

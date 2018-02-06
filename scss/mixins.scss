@@ -42,3 +42,9 @@
 
   list-style: none;
 }
+
+@mixin container {
+  margin: 0 auto;
+  padding: 0 30px;
+  width: 1140px;
+}
