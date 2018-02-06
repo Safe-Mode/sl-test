@@ -5,6 +5,7 @@
 .main-nav__link {
   @include link-reset;
 
+  display: block;
   padding: 25px;
 
   font-size: 18px;
