@@ -1,0 +1,36 @@
+.user-area {
+  font-weight: 700;
+}
+
+.user-area__city {
+  font-size: 15px;
+  line-height: 1;
+  letter-spacing: 0.025em;
+}
+
+.user-area__cart {
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: 0.025em;
+}
+
+.user-area__arrows {
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: 0.025em;
+}
+
+.user-area__icon {
+  @include link-reset;
+}
+
+.user-area__buttons {
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+}
+
+.user-area__log-btn {
+  @include btn;
+}

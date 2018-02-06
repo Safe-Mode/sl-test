@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120px" height="76px" viewBox="0 0 120 76" version="1.1">
-    
-    <title>payment_027-webmoney-card</title>
-    <desc>Created with Sketch.</desc>
+
+    <title>Webmoney</title>
     <defs/>
     <g id="round-rect" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="payment_027-webmoney-card">
@@ -18,7 +17,7 @@
         </g>
     </g>
 
-	
+
 	<metadata>
 		<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/">
 			<rdf:Description about="https://iconscout.com/legal#licenses" dc:title="Payment, Webmoney, Card, Bank, Transaction" dc:description="Payment, Webmoney, Card, Bank, Transaction" dc:publisher="Iconscout" dc:date="2016-12-14" dc:format="image/svg+xml" dc:language="en">

@@ -1,0 +1,44 @@
+@mixin link-reset {
+  display: inline-block;
+
+  color: inherit;
+  text-decoration: inherit;
+}
+
+@mixin btn {
+  @include link-reset;
+
+  display: inline-block;
+  padding: 5px 10px;
+  min-width: 70px;
+
+  color: inherit;
+  text-align: center;
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: inherit;
+  text-transform: lowercase;
+  letter-spacing: inherit;
+
+  border: 1px solid $color-main;
+  border-radius: 15px;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: #ffffff;
+    background-color: $color-main;
+    outline: none;
+  }
+
+  &:active {
+    opacity: 0.7;
+  }
+}
+
+@mixin list-reset {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}

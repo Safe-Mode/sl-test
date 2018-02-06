@@ -5,9 +5,14 @@
   <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Электроника</title>
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=cyrillic" rel="stylesheet">
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
+  <div style="display:none">
+    <include src="build/img/sprite.svg"></include>
+  </div>
+
   <header class="page-header">
     <div class="page-header__top">
       <p class="page-header__logo logo">
@@ -18,27 +23,37 @@
         <p class="user-area__city">
           <span class="user-area__city-name">Ростов-на-Дону</span>
           <a href="#" class="user-area__city-choise">
-            <span class="visually-hidden">Выбор города</span>
+            <svg width="13" height="13">
+              <use xlink:href="#icon-arrow-down"></use>
+            </svg>
           </a>
         </p>
         <p class="user-area__cart">
-          <a href="#" class="user-area__icon"></a>
+          <a href="#" class="user-area__icon">
+            <svg width="12" height="13">
+              <use xlink:href="#icon-cart"></use>
+            </svg>
+          </a>
           <span class="user-area__count">5</span>
         </p>
         <p class="user-area__arrows">
-          <a href="#" class="user-area__icon"></a>
+          <a href="#" class="user-area__icon">
+            <svg width="12" height="13">
+              <use xlink:href="#icon-double-arrows"></use>
+            </svg>
+          </a>
           <span class="user-area__count">2</span>
         </p>
         <p class="user-area__buttons">
-          <a href="#" class="user-area__log-btn btn">Выход</a>
+          <a href="#" class="user-area__log-btn">Выход</a>
         </p>
       </div>
-      <div class="page-header__contacts">
+      <div class="page-header__contacts contacts">
         <p class="contacts__location">г. Ростов-на-Дону, ул. Ворошиловский проспект 45</p>
         <p class="contacts__phones">
           <a href="tel:80000000000" class="contacts__phone">8 000 000 00 00</a>
         </p>
-        <a href="#" class="contacts__link btn">Заказать звонок</a>
+        <a href="#" class="contacts__link">Заказать звонок</a>
       </div>
     </div>
 

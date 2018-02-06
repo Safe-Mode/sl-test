@@ -1,0 +1,26 @@
+.contacts {
+  font-weight: 700;
+}
+
+.contacts__phone {
+  @include link-reset;
+
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.025em;
+}
+
+.contacts__link {
+  @include btn;
+
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+}
+
+.contacts__location {
+  font-size: 15px;
+  line-height: 1;
+  letter-spacing: 0.025em;
+}

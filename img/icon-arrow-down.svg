@@ -1,0 +1,10 @@
+<svg width="67" height="67" xmlns="http://www.w3.org/2000/svg" clip-rule="evenodd" viewBox="0 0 67 67">
+ <title>Arrow down</title>
+ <g>
+  <rect fill="none" id="canvas_background" height="69" width="69" y="-1" x="-1"/>
+ </g>
+ <g>
+  <path id="svg_2" fill="#37474f" d="m33.5,0.499999c-18.2,0 -33,14.8 -33,33c0,18.2 14.8,33 33,33c18.2,0 33,-14.8 33,-33c0,-18.2 -14.8,-33 -33,-33z"/>
+  <path transform="rotate(90 33.5,33.50000000000001) " id="svg_3" fill="#ffffff" fill-rule="nonzero" d="m23.300001,23.8l9.4,9.7l-9.4,9.7l5.8,5.6l14.6,-15.3l-14.6,-15.3l-5.8,5.6z"/>
+ </g>
+</svg>
