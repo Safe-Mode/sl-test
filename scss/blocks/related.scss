@@ -1,0 +1,40 @@
+.related__wrapper {
+  @include container;
+
+  display: flex;
+}
+
+.related__article {
+  display: flex;
+  min-height: 305px;
+
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+
+  background-color: #c3cdd6;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &:first-child {
+    background-image: url("../img/flex-phone.jpg");
+  }
+
+  &:nth-child(2) {
+    background-image: url("../img/hand-touch.jpg");
+  }
+
+  &:last-child {
+    background-image: url("../img/workers.jpg");
+  }
+}
+
+.related__text {
+  align-self: flex-end;
+  margin: 0;
+  padding: 15px;
+  background-color: transparentize($color-main, 0.2);
+}
