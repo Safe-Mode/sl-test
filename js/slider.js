@@ -12,11 +12,13 @@
   };
 
   let changeBtnState = function (controls, target) {
-    controls.forEach(function (control) {
-      control.classList.remove('slider__btn--active');
-    });
+    if (target.classList.contains('slider__btn')) {
+      controls.forEach(function (control) {
+        control.classList.remove('slider__btn--active');
+      });
 
-    target.classList.add('slider__btn--active');
+      target.classList.add('slider__btn--active');
+    }
   };
 
   window.slider = function (element) {
