@@ -12,5 +12,7 @@ CSS-препроцессор: SCSS;<br>
 Сборщик: Gulp;<br>
 Методология: БЭМ<br>
 
-npm start - запуск проекта.
+npm start - запуск проекта.<br>
+
+Если не получилось - <a href="https://drive.google.com/open?id=1yyoM-GhfF27EdzKEaxaj_Gj7spKNbQSq">план "Б"</a>
 
