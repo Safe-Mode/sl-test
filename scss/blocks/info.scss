@@ -1,0 +1,15 @@
+.info {
+  background-color: $color-dark;
+}
+
+.info__wrapper {
+  @include container;
+
+  padding: 75px 0;
+}
+
+.info__text {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.025em;
+}
