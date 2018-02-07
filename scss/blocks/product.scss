@@ -61,6 +61,16 @@
   background-color: $color-main;
   border-radius: 50%;
 
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: $color-add;
+  }
+
+  &:active {
+    opacity: 0.7;
+  }
+
   &--cart {
     margin-right: 10px;
     width: 40px;
@@ -87,4 +97,11 @@
 .product--discount .product__link {
   color: $color-add;
   background-color: #ffffff;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: #ffffff;
+    background-color: $color-main;
+  }
 }
