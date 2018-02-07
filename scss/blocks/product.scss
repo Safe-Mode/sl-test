@@ -30,12 +30,9 @@
   align-items: center;
   padding: 10px 15px;
 
-  color: #ffffff;
   font-size: 24px;
   line-height: 1;
   letter-spacing: 0.025em;
-
-  background-color: $color-add;
 }
 
 .product__prices {
@@ -57,11 +54,11 @@
 .product__link {
   @include link-reset;
 
-  color: $color-add;
+  color: #ffffff;
   text-align: center;
   vertical-align: middle;
 
-  background-color: #ffffff;
+  background-color: $color-main;
   border-radius: 50%;
 
   &--cart {
@@ -77,5 +74,17 @@
     height: 30px;
 
     line-height: 30px;
+
+    background-color: $color-dark;
   }
+}
+
+.product--discount .product__customer {
+  color: #ffffff;
+  background-color: $color-add;
+}
+
+.product--discount .product__link {
+  color: $color-add;
+  background-color: #ffffff;
 }
