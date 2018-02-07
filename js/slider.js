@@ -11,6 +11,14 @@
     return parseInt(control.id.slice(-1), radixTen);
   };
 
+  let changeBtnState = function (controls, target) {
+    controls.forEach(function (control) {
+      control.classList.remove('slider__btn--active');
+    });
+
+    target.classList.add('slider__btn--active');
+  };
+
   window.slider = function (element) {
     let content = element.querySelector('.slider__content');
     let controlsWrapper = element.querySelector('.slider__controls');
@@ -30,6 +38,7 @@
     let onControlClick = function (evt) {
       evt.preventDefault();
       movePosition(content, getControlNum(evt.target));
+      changeBtnState(controls, evt.target);
     }
 
     controlsWrapper.addEventListener('click', onControlClick);
