@@ -19,6 +19,7 @@
   &:focus,
   &:active {
     background-color: darken($color-main, 10%);
+    outline: none;
   }
 
   &:active {

@@ -64,6 +64,7 @@
   &:focus,
   &:active {
     color: $color-add;
+    outline: none;
   }
 
   &:active {
