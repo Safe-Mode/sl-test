@@ -15,5 +15,5 @@ CSS-препроцессор: SCSS;<br>
 
 <strong>npm start</strong> - запуск проекта.<br>
 
-Если не получилось - <a href="https://drive.google.com/file/d/1DeqS_IRjfHiSvgYqqqxiFGJAFVMz6NGH/view?usp=sharing">план "Б"</a>
+Если не получилось - <a href="https://drive.google.com/file/d/1OAG7qY1V43flXSAuZFOY1xoowd3ySsbn/view?usp=sharing">план "Б"</a>
 
