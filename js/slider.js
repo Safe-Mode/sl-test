@@ -4,11 +4,11 @@
   const radixTen = 10;
 
   window.slider = function (element) {
-    let content = slider.querySelector('.slider__content');
-    let controlsWrapper = slider.querySelector('.slider__controls');
+    let content = element.querySelector('.slider__content');
+    let controlsWrapper = element.querySelector('.slider__controls');
     let controlsList = controlsWrapper.querySelectorAll('.slider__btn');
     let controls = Array.from(controlsList);
-    let slide = slider.querySelector('.slider__slide');
+    let slide = element.querySelector('.slider__slide');
     let slideWidth = slide.offsetWidth;
 
     let setControlNum = function (control, index) {
