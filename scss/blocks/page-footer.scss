@@ -1,3 +1,44 @@
+.page-footer {
+  padding: 25px 0;
+  color: #ffffff;
+  background-color: $color-main;
+}
+
 .page-footer__wrapper {
   @include container;
+}
+
+.page-footer__cards {
+  margin: 0;
+  margin-bottom: 35px;
+
+  text-align: center;
+}
+
+.page-footer__copyright {
+  margin: 0;
+  text-align: center;
+}
+
+.page-footer__text {
+  margin-right: 30px;
+
+  font-family: "Arial", sans-serif;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.025em;
+}
+
+.page-footer__link {
+  @include link-reset;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: $color-add;
+  }
+
+  &:active {
+    opacity: 0.7;
+  }
 }
