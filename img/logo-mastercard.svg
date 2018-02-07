@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <svg height="100px" version="1.1" viewBox="0 0 160 100" width="160px" xmlns="http://www.w3.org/2000/svg" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title />
-    <defs />
+    <title>MasterCard</title>
     <g fill="none" fill-rule="evenodd" id="Page-1" stroke="none" stroke-width="1">
         <g id="Master" transform="translate(-1.000000, 0.000000)">
             <path d="M149,1.01146687e-06 C141,1.76644588e-06 56.3007812,-1.60318373e-06 9,1.01146687e-06 C5,1.23257532e-06 1,4.00000101 1,8.00000101 L1,88.000001 C0.999999537,96.000001 5,100.000001 13,100.000001 C57.6232096,100.000001 141,100.000002 149,100.000001 C157,100.000001 161,96.000001 161,88.000001 L161,12.000001 C161,4.00000101 157,1.01146687e-06 149,1.01146687e-06 Z M149,1.01146687e-06" fill="#265697" id="Rectangle-1" />

@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <svg height="100px" version="1.1" viewBox="0 0 160 100" width="160px" xmlns="http://www.w3.org/2000/svg" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title />
-    <defs />
+    <title>Visa</title>
     <g fill="none" fill-rule="evenodd" id="Page-1" stroke="none" stroke-width="1">
         <g id="Visa">
             <rect d="M0,9 L0,89 L160,89 L160,9 L0,9 Z M0,9" fill="#F6F6F6" height="80" id="Rectangle-20" width="160" x="0" y="9" />
