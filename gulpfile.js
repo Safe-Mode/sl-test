@@ -32,11 +32,11 @@ gulp.task("style", function() {
 });
 
 gulp.task("script", function() {
-  gulp.src("js/script.js")
-    .pipe(uglify())
-    .pipe(rename(
-      {suffix: '.min'}
-    ))
+  gulp.src("js/*.js")
+    // .pipe(uglify())
+    // .pipe(rename(
+    //   {suffix: '.min'}
+    // ))
     .pipe(gulp.dest("build/js"))
     .pipe(server.stream());
 });
@@ -86,7 +86,7 @@ gulp.task("serve", function() {
   });
 
   gulp.watch("scss/**/*.{scss,sass}", ["style"]);
-  gulp.watch("js/script.js", ["script"]);
+  gulp.watch("js/*.js", ["script"]);
   gulp.watch("*.html", ["html"]);
 });
 
