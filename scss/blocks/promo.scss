@@ -1,5 +1,44 @@
+.promo {
+  min-height: 340px;
+}
+
 .promo__wrapper {
   @include container;
+
+  display: flex;
+}
+
+.promo__banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+  width: 600px;
+
+  background-color: #f8f8f8;
+  background-image: url("../img/banner-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.promo__title {
+  margin: 0;
+  margin-bottom: 15px;
+
+  font-size: 30px;
+  line-height: 1;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+}
+
+.promo__text {
+  margin: 0;
+  margin-bottom: 10px;
+  max-width: 330px;
+
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 700;
 }
 
 .promo__link {
@@ -8,4 +47,8 @@
 
 .promo__icon {
   transform: rotate(-90deg);
+}
+
+.promo__slider {
+  width: 540px;
 }

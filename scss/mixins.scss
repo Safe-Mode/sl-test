@@ -20,8 +20,10 @@
   text-transform: lowercase;
   letter-spacing: inherit;
 
+  background-color: transparent;
   border: 1px solid $color-main;
   border-radius: 15px;
+  cursor: pointer;
 
   &:hover,
   &:focus,
@@ -52,4 +54,9 @@
 @mixin text-input {
   box-sizing: border-box;
   padding: 5px;
+}
+
+@mixin columns {
+  display: flex;
+  justify-content: space-between;
 }

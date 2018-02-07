@@ -1,0 +1,39 @@
+.slider {
+  overflow: hidden;
+}
+
+.slider__content {
+  position: relative;
+  display: flex;
+}
+
+.slider__slide {
+  display: flex;
+}
+
+.slider__controls {
+  padding: 10px 0;
+
+  text-align: center;
+  font-size: 0;
+}
+
+.slider__btn {
+  @include btn;
+
+  padding: 0;
+  width: 15px;
+  height: 15px;
+  min-width: auto;
+
+  background-color: $color-dark;
+  border: none;
+
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+
+  &--active {
+    background-color: $color-main;
+  }
+}
